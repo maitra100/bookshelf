@@ -1,0 +1,47 @@
+#content{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    margin-top:40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box{
+    display:flex;
+    width:75vw;
+    border:5px solid orange;
+    margin:20px;
+    justify-content: center;
+    height:auto;
+    position:relative;
+    flex-wrap: wrap;
+}
+
+#cards{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+#text{
+    background-color: aliceblue;
+    color: orange;
+    font-size: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    justify-self: center;
+    top: -20px;
+}
+
+.hello{
+    margin:10px;
+    width:50px;
+    height:50px;
+    border: 1px solid black;
+    margin-top:30px;
+}
